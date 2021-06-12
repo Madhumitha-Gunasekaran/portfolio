@@ -1,0 +1,185 @@
+.background{
+    background: #EDEDED 0% 0% no-repeat padding-box;
+    width: 100%;
+    height:47%;
+}
+
+ ul{
+    background: #FFF 0% 0% no-repeat padding-box;
+    display: inline-flex;
+    position:fixed;
+    width:100%;
+    z-index:1;
+}
+ ul li a{
+    text-decoration: none;
+    color:black;
+    /* font-family: sans-serif; */
+    font-size:1em;
+}
+ul li{
+    padding:1em;
+    color:#fff;
+}
+.card{
+    top: 13em;
+    width: 24%;
+    left: 57%;
+}
+
+.paragraph {
+    padding-top: 54px;
+
+}
+.paragraph button a{
+    text-decoration: none;
+    color:black;
+    
+}
+.paragraph button{
+    border:2px solid #dcd7d7;
+    margin-left:12%;
+    
+}
+/* .about{
+    width: 36%;
+    height: 85%;
+    margin-top: 43px;
+    margin-left: 30px;
+} */
+.about mat-card{
+    margin:50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.about mat-card mat-card-header{
+    text-align: left;
+    /* font: normal normal bold 29px/74px Roboto; */
+    letter-spacing: 0px;
+    color: #000000;
+    /* font-family: sans-serif; */
+    font-size: 3em;
+    line-height: 1em;
+    /* padding: 10px; */
+    margin-left: -32px;
+}
+/* .progress{
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: none;
+}
+.progress-br{
+background:#eeeeee;
+
+} */
+.progress{
+    background: none;
+}
+.cvButton{
+    margin-left:37%;
+    margin-top: 10%;
+}
+.aboutCard{
+    margin-left: 27px;
+}
+
+.about p{
+    text-align: justify;
+    padding-top: 28px;
+}
+
+  .eduBackground{
+      background:#c3d4e6;
+  }
+  .timeline{
+    position: relative;
+    max-width: 19%;
+    margin-top: 4%;
+    margin-left: 33%;
+    margin-bottom: 2%;
+  }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #0d6efd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  .container{
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+  }
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-31px;
+    background-color: white;
+    border: 4px solid #0d6efd;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .right {
+    left: 51%;
+  }
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }  
+  .right::after {
+    left: -16px;
+  }
+  
+  
+      
+      .blogs mat-card{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+      }
+       .blogs{
+           margin-left:12%;
+       }
+       .blogs h4{
+           margin-left:13px;
+       }
+       .blogs img{
+           width: 268px;
+       }
+       .contactForm{
+        background-color: #4b99a9;
+        padding-left: 20%;
+        padding-top: 30px;
+        padding-bottom: 67px;
+        color: white;
+        /* font-family: sans-serif; */
+        /* font-weight: 500; */
+        font-size: larger;
+       }
+       .activbutton{
+        background: #0d6efd 0% 0% no-repeat padding-box;
+        border: 3px solid #0d6efd;
+        border-radius: 5px;
+        color: #FFFFFF;
+       }
+       .experience{
+        border: 3px solid #0d6efd;
+           /* border:2px solid black; */
+        } 
+        

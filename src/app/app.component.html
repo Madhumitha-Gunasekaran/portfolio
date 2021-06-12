@@ -1,0 +1,210 @@
+<div class="background">
+  <ul>
+    <li><a class="active" href="#About">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#experience">Education</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="innercard">
+    <div class="paragraph">
+      <p>Hi I'm Madhumitha G</p>
+      <p>I'm Front end Developer</p>
+      <!-- <i class="fa fa-linkedin"></i>
+      <i class="fa fa-envelope fa-fw"></i> -->
+    </div>
+  </div>
+   <div id="About" class="row  aboutCard w-100"> 
+    <h1 >About</h1>
+    <div  class="about col-5">
+          <p>I am a Front end developer with 2.2 years of experience in devloping Single Page Application using Angular, Angular Material, CSS, HTML, Bootstrap,
+            Typescript, javascript. I am more interested to upgrad myself by learning and experimenting new tools technologies.
+            
+          </p>
+             <button type="button" class="btn cvButton btn-primary" (click)="downloadPDF()">Download CV</button>
+    </div>
+    <div class="col-7 mt-4 mb-4">
+      <div class="row">
+        <p class="col-2">Angular</p>
+      <div class="progress mt-4 col-8">
+          <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            80%
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <p class="col-2">HTML</p>
+      <div class="progress mt-4 col-8">
+          <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            85%
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <p class="col-2">CSS</p>
+      <div class="progress mt-4 col-8">
+          <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            80%
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <p class="col-2">Bootstrap</p>
+      <div class="progress mt-4 col-8">
+          <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            80%
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <p class="col-2">Angular Material</p>
+      <div class="progress mt-4  col-8">
+          <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            85%
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <p class="col-2">React</p>
+      <div class="progress mt-4 col-8">
+          <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            50%
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <p class="col-2">Node.js</p>
+    <div class="progress mt-4 col-8">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          25%
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <p class="col-2">MongoDB</p>
+  <div class="progress mt-4 col-8">
+      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        25%
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div> 
+  <div id="experience" class="eduBackground">
+    <div class="buttonleft pt-5">
+    <button type="button"  [ngClass]="{'activbutton':experience}" class="btn mx-5  experience" (click)="experince()">My Experince</button>
+    <button type="button" [ngClass]="{'activbutton':educ}" class="btn experience" (click)="education()">My Education</button>
+  </div>
+  <div *ngIf="experience" class="timeline">
+    <div class="container right">
+      <div class="content">
+        <h2>Feb-2020-present - Assistant System Engineer</h2>
+        <p>
+      <strong>Front End Developer</strong><br/>
+          Developed a responsive Single Page Application using Angular 10, Angular material, HTML, CSS Bootstrap.<br/>
+          Experience in integrating the REST api angular service through HttpClient. <br/>
+          Experience in integrating ng2-charts, Google Charts, ngx-charts.<br/>
+          Experience on working components provided by Angular Material.<br/>
+          Developed dynamic reference architecture using MXgraph in Angular.<br/>
+          Experience in Working Version Control system like GIT. <br/>
+          Did unit testing using jasmine and karma.<br/>
+          Knowledge in D3.js library. <br/>
+          Worked extensively in Agile development process.  <br/>
+        </p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>April-2019 - Feb-2020 Assistant System Engineer Trainee</h2>
+        <p>
+          <strong>MEAN Stack Developer</strong><br/>
+          Gained Knowledge in Angular 7,Angular Material,Typescript.<br/>
+          Gained Knowledge in MongoDB,Express,Node.js.<br/>
+          Did POC on Dynamic Form Template system using the MEAN Stack.<br/>
+        </p>
+      </div>
+    </div>
+    <!-- <div class="container right">
+      <div class="content">
+        <h2>2016</h2>
+        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      </div>
+    </div> -->
+  </div>
+  <div>
+  <div *ngIf="educ" class=" timeline">
+    <div class="container right">
+      <div class="content">
+        <h2>2015-2017</h2>
+        <p>
+         <strong> SNS college of Technology,Coimbatore.</strong><br/>
+          B.E-Bachelor of Computer Science and Engineering. <br/>
+          CGPA-8.6 
+          <br/>
+        </p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>2015</h2>
+        <p><strong>Vijayalakshmi Matric Hr.sec School,Sirumugai</strong><br/>
+          Higher Secondary<br/>
+           91.5 %
+        </p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>2013</h2>
+        <p><strong>Vijayalakshmi Matric Hr.sec School,Sirumugai</strong><br/>
+          State Board<br/>
+         94%
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div> 
+   <div id="blogs" class="blogs pb-5 row">
+    <h1 class="center"> My Blogs</h1>
+    <mat-card *ngFor="let i of blogs" class="col-3">
+      <mat-card-content>
+        <h4><strong>{{i.title}}</strong></h4>
+        <img [src]='i.image' />
+        <p>{{i.explanation}}</p>
+        <button type="button" class="btn btn-primary">View more</button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div id="contact" class="contactForm">
+    <p>Contact Me</p>
+    <div class="row">
+    <i class="fa fa-envelope fa-fw"> gmadhumitha98@gmail.com </i> 
+    <i class="fa fa-whatsapp pt-4" aria-hidden="true"> 9003867278</i>
+    <i class="fa fa-linkedin pt-4"> gmadhumitha98@gmail.com</i>
+    
+    </div>
+    <!-- <form [formGroup]="contactForm" autocomplete="off">
+      <div class="row w-50">
+      <mat-form-field appearance="legacy">
+        <mat-label>Enter your Name</mat-label>
+        <input matInput placeholder="Name" formControlName="Name" type="text" required>
+      </mat-form-field>
+    </div>
+    <div class="row w-50">
+      <mat-form-field appearance="legacy">
+        <mat-label>Enter your Emailid</mat-label>
+        <input matInput placeholder="Enter emailid" formControlName="email" type="email" required>
+      </mat-form-field>
+    </div>
+    <div class="row w-50">
+      <mat-form-field appearance="legacy">
+        <mat-label>Description</mat-label>
+        <input matInput placeholder="Hi" formControlName="description" type="text" required >
+      </mat-form-field>
+    </div>
+    </form> -->
+    <!-- <button type="button" class="btn btn-primary" (click)="submit()">Submit</button> -->
+  </div>
+</div>
